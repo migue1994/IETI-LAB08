@@ -18,12 +18,12 @@ import java.io.IOException;
  * 8/21/17.
  */
 public class JwtFilter
-    extends GenericFilterBean
+        extends GenericFilterBean
 {
 
     public void doFilter( final ServletRequest servletRequest, final ServletResponse servletResponse,
                           final FilterChain filterChain )
-        throws IOException, ServletException
+            throws IOException, ServletException
     {
 
         final HttpServletRequest request = (HttpServletRequest) servletRequest;

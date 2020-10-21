@@ -32,6 +32,13 @@ public class User
         this.lastname = lastname;
     }
 
+    public User(String email, String password, String firstname, String lastname, String username){
+        this.email = email;
+        this.password = password;
+        this.firstname = firstname;
+        this.lastname = lastname;
+        this.username = username;
+    }
 
     public long getId()
     {

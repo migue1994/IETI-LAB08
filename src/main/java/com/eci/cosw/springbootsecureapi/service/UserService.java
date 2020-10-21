@@ -19,4 +19,6 @@ public interface UserService
     User findUserByEmail( String email );
 
     User findUserByEmailAndPassword( String email, String password );
+
+    User findUserByUsername(String username) throws Exception;
 }
